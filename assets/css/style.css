@@ -1,0 +1,52 @@
+body {
+    background-image: url('https://geographical.co.uk/wp-content/uploads/Saharasunset-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    height: 100vh;
+
+    background-image: url('../img/df6c765f7019656350531c4a4eff5e11.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.lista-mandamentos {
+    font-size: 1.1em;
+    font-weight: bold;
+    list-style: none;
+}
+
+.lista-mandamentos li {
+    /* animation: animacao 2s; */
+    margin-bottom: 15px;
+}
+
+.lista {
+    width: 35%;
+}
+
+.imagem {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@keyframes animacao {
+    0% {
+        transform: scale(.5);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(.5);
+    }
+}
