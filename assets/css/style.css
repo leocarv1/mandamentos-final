@@ -1,5 +1,6 @@
 body {
-    background-image: url('https://geographical.co.uk/wp-content/uploads/Saharasunset-2.jpg');
+    /* background-image: url('https://geographical.co.uk/wp-content/uploads/Saharasunset-2.jpg'); */
+    background-image: url('https://images4.alphacoders.com/130/1308321.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,11 +10,11 @@ body {
 .container {
     height: 100vh;
 
-    background-image: url('../img/df6c765f7019656350531c4a4eff5e11.png');
+    /* background-image: url('../img/df6c765f7019656350531c4a4eff5e11.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 .lista-mandamentos {
@@ -23,7 +24,6 @@ body {
 }
 
 .lista-mandamentos li {
-    /* animation: animacao 2s; */
     margin-bottom: 15px;
 }
 
@@ -32,21 +32,16 @@ body {
 }
 
 .imagem {
+    display: flex;
+    justify-content: end;
+
     position: absolute;
     right: 0;
-    top: 0;
+    /* top: 0; */
+
+    text-align: center;
 }
 
-@keyframes animacao {
-    0% {
-        transform: scale(.5);
-    }
-
-    50% {
-        transform: scale(1);
-    }
-
-    100% {
-        transform: scale(.5);
-    }
+.imagem img {
+    width: 70%;
 }
