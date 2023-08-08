@@ -34,14 +34,14 @@ body {
 .imagem {
     display: flex;
     justify-content: end;
+    height: 60%;
+    width: 30%;
 
     position: absolute;
     right: 0;
     /* top: 0; */
-
-    text-align: center;
 }
 
 .imagem img {
-    width: 70%;
+    width: 100%;
 }
