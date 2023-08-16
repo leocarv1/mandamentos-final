@@ -17,17 +17,24 @@ body {
 }
 
 .lista-mandamentos {
-    font-size: 1.1em;
     font-weight: bold;
     list-style: none;
+
+    width: 50%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .lista-mandamentos li {
-    margin-bottom: 15px;
+    margin-bottom: .2em;
+    font-size: 1.5em;
 }
 
-.lista {
-    width: 35%;
+.lista-mandamentos li:first-child {
+    font-size: 2.3em;
 }
 
 .imagem {
